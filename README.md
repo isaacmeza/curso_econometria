@@ -63,15 +63,15 @@ Temario
 		SVM (Supporting Vector Machine)
 
 
-Objetivo
+# Objetivo
 El objetivo de este curso es aprender métodos de inferencia causal y de estadística para resolver problemas y preguntas relacionadas con el proyecto. El enfoque será tanto teórico como práctico, y usaremos los datos del proyecto para los ejemplos. Se pretende desarrollar intuición sobre los distintos métodos, identificar bajo qué situaciones es útil usarlos y saber cómo interpretar los resultados. Dado que los coautores de Joyce están más familiarizados con STATA, ésta será la herramienta que estaremos usando, aunque también indicaré los paquetes o funciones de R. 
 
 
-Asistencia (90%)
+# Asistencia (90%)
 Se deberá cumplir con una asistencia de al menos el 90%. La hora y media de la clase se puede reportar para sus horas semanales. 
 
 
-Proyectito (Tentativo - 30 Abr)
+# Proyectito (Tentativo - 30 Abr)
 Como 'evaluación' se hará un mini-proyecto que realizarán de forma individual. El proyecto consistirá en explorar una(s) pregunta(s) sobre las bases que se encuentran trabajando.  Dicha pregunta(s) la tienen que proponer lo antes posible, sobre sus datos o los datos que veamos en las clasecitas. 
 
 Tendrán que presentar los resultados de sus trabajos a Joyce y a mí. (El tiempo que les tome la presentación se puede contar para sus horas y estará sujeto al incentivo de 'trabajo en equipo'.) Esta presentación debe incluir lo siguiente:
