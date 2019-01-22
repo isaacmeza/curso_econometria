@@ -1,7 +1,7 @@
-'Econometría'
+# Econometría
 
 
-Temario
+# Temario
 
 1. Preparación y limpieza de datos en R  (1)
 
