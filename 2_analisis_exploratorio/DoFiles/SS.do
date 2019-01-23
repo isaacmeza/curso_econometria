@@ -1,4 +1,5 @@
-*SUMMARY STATISTICS TABLE
+*SUMMARY STATISTICS TAB
+***************************************************************
 
 local ss_vars_bvc mujer salario_diario antiguedad   /*BVC*/
 local ss_vars_exp	prob_ganar  prob_mayor cantidad_ganar   cant_mayor  /*Baseline survey*/
