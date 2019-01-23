@@ -1,0 +1,28 @@
+Local OSRM
+
+Install Node.js  8.11.3 LTS <https://nodejs.org/en/>
+Extract the file osrm_Release.zip (link from my Dropbox <https://www.dropbox.com/s/eeo5f9ws7hmair4/osrm_Release.zip?dl=0> )
+Copy the file  mexico-latest.osm.pbf <https://download.geofabrik.de/north-america/mexico-latest.osm.pbf> in the osrm_Release folder.
+Open Node.js command prompt
+1) Change directory to the osrm_Release folder
+	cd ~/osrm_Release
+
+2) Extracting the road network 
+	osrm-extract mexico-latest.osm.pbf 
+	osrm-contract mexico-latest.osm.pbf 
+
+This previous steps only need to be done once. This sets the road network for Mexico.
+In order to launch OSRM as a local instance the following steps are needed.
+
+1) Change directory to the osrm_Release folder in  Node.js command prompt
+	cd ~/osrm_Release
+2) Set the local OSRM instance
+# Run on a local server to avoid the 10,000 query limit:
+# First follow the instructions here to install and build the OSRM server:
+# https://datawookie.netlify.com/blog/2017/09/building-a-local-osrm-instance/
+# or:
+# https://github.com/Project-OSRM/osrm-backend/wiki/Running-OSRM
+	osrm-routed
+	osrm-routed --max-table-size=1500 mexico-latest.osrm  
+3) Run R
+

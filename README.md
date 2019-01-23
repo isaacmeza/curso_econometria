@@ -6,61 +6,61 @@
 1. Preparación y limpieza de datos en R  (1)
 
 2. Análisis Exploratorio de Datos (1)
-	Geolocalizacion
-	Summary Stats
-	Visualización
+	- Geolocalizacion
+	- Summary Stats
+	- Visualización
 	
 3. Diseño de experimentos  (1)
-	Pruebas de Poder 
-	Balance | T-test 
+	- Pruebas de Poder 
+	- Balance | T-test 
 
 4. Modelos Lineales (1)
-	OLS  (Ordinary Least Squares)
-	LPM	 (Linear Probability Model)
-		Robust SE 
-		Cluster SE 
+	- OLS  	 (Ordinary Least Squares)
+	- LPM	 (Linear Probability Model)
+		- Robust SE 
+		- Cluster SE 
 
 5. Resampling (Opcional) 
-	Jackknife
-	Bootstrap 
+	- Jackknife
+	- Bootstrap 
 	
 6. Estadística no paramétrica (1)
-	Regresión local
-	Kernel density estimation
+	- Regresión local
+	- Kernel density estimation
 
 7. Modelos no Lineales (2)
-	NLLS (Non-linear least squares)
-	Probit  
-	Logit  
-	Quantile regression 
-	Random Forest | Boosted regression  (Opcional)
+	- NLLS (Non-linear least squares)
+	- Probit  
+	- Logit  
+	- Quantile regression 
+	- Random Forest | Boosted regression  (Opcional)
 
 8. Inferencia Causal (3)
-	RCT (Randomized Control Trials)
-	Panel Data 
-		FE & RE (Fixed and Random Effects)
-	DiD (Difference-in-difference)
-		SCM (Synthetic Control Methods)
-	NN match (Nearest-neighbor match)
-	IV (Instrumental Variables)
-		GMM (Generalized Method of Moments)
-		CF (Control Function)
-	RD (Opcional) (Regression Discontinuity)
+	- RCT (Randomized Control Trials)
+	- Panel Data 
+		- FE & RE (Fixed and Random Effects)
+	- DiD (Difference-in-difference)
+		- SCM (Synthetic Control Methods)
+	- NN match (Nearest-neighbor match)
+	- IV (Instrumental Variables)
+		- GMM (Generalized Method of Moments)
+		- CF (Control Function)
+	- RD (Opcional) (Regression Discontinuity)
 	
 9. Attrition (1)
-	Bounds
+	- Bounds
 
 10. Clasificación  (2)
-	Métodos no supervisados
-		Latent models 
-		EM (Expectation-Maximization)
-		Clustering
-		Factor Analysis
+	- Métodos no supervisados
+		- Latent models 
+		- EM (Expectation-Maximization)
+		- Clustering
+		- Factor Analysis
 
-	Métodos supervisados (Opcional)
-		KNN (k-Nearest Neighbor)
-		Logistic regression
-		SVM (Supporting Vector Machine)
+	- Métodos supervisados (Opcional)
+		- KNN (k-Nearest Neighbor)
+		- Logistic regression
+		- SVM (Supporting Vector Machine)
 
 
 # Objetivo
