@@ -1,0 +1,66 @@
+Git
+
+------------------------------------------------------------------
+
+# Introduction to Git (http://rogerdudler.github.io/git-guide/)
+
+# Initialize Git
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+
+# Fork a repository (https://confluence.atlassian.com/bitbucket/forking-a-repository-221449527.html)
+cd [direccion_del_repo_en_el_local]
+
+
+# Clone the repository in your local 
+git clone [url_de_su_fork]
+
+
+# Add parent repo (mine)
+git remote add [tu_alias] [url_de_mi_repo]
+
+
+# Verify 
+git remote -v 
+
+* te daría:
+
+origin <url del fork> (fetch)
+origin <url del fork> (push)
+[tu_alias] <url del original> (fetch)
+
+* Si además puedes hacer push directo al original, te saldría una cuarta línea con 
+
+[tu_alias] <url del original> (push)
+
+
+------------------------------------------------------------------
+
+# Commiting changes to your remote
+
+git status
+
+git add .
+
+git commit -m '[tu_mensaje]'
+
+git push
+
+
+------------------------------------------------------------------
+
+# Updating your local fork 
+
+git pull [tu_alias] master
+
+git status
+
+* Resolve conflicts 
+https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
+
+https://help.github.com/articles/resolving-a-merge-conflict-on-github/
+
+git add .
+
+git commit -m "Resolved merge conflict by incorporating xxx suggestions."

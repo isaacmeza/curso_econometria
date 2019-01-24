@@ -31,15 +31,7 @@ Within each cell `m' replications are run to estimate the power.
 
 
 clear all
-
-local user "Po"
-
-if "`user'"=="Moni" {
-	global directorio C:\Users\Monica\Repos\information_settlement\Pilot_3
-	}
-else {
-	global directorio C:\Users\jcsadka\Documents\pilot3\pilot3\pilot_3
-	}
+global directorio C:\Users\xps-seira\Dropbox\Apps\ShareLaTeX\curso_econometria\3_diseno_experimentos
 timer on 1
 
 *Sample size
