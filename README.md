@@ -6,10 +6,10 @@
 1. Preparación y limpieza de datos en R  (1)
 
 2. Análisis Exploratorio de Datos (1)
-	- Geolocalizacion
-	- Summary Stats
 	- Visualización
-	
+	- Summary Stats
+	- Geolocalización
+
 3. Diseño de experimentos  (1)
 	- Pruebas de Poder 
 	- Balance | T-test 
