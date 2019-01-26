@@ -64,3 +64,6 @@ https://help.github.com/articles/resolving-a-merge-conflict-on-github/
 git add .
 
 git commit -m "Resolved merge conflict by incorporating xxx suggestions."
+
+
+------------------------------------------------------------------
