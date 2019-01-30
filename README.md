@@ -75,9 +75,9 @@ Se deberá cumplir con una asistencia de al menos el 90%. La hora y media de la 
 Como 'evaluación' se hará un mini-proyecto que realizarán de forma individual. El proyecto consistirá en explorar una(s) pregunta(s) sobre las bases que se encuentran trabajando.  Dicha pregunta(s) la tienen que proponer lo antes posible, sobre sus datos o los datos que veamos en las clasecitas. 
 
 Tendrán que presentar los resultados de sus trabajos a Joyce y a mí. (El tiempo que les tome la presentación se puede contar para sus horas y estará sujeto al incentivo de 'trabajo en equipo'.) Esta presentación debe incluir lo siguiente:
-	1) Presentación/exploración de los datos (SS, figuras, etc)
-	2) Resultados - Usando una o varias de las técnicas/métodos que veremos.
-	3) Interpretación
+	1. Presentación/exploración de los datos (SS, figuras, etc)
+	2. Resultados - Usando una o varias de las técnicas/métodos que veremos.
+	3. Interpretación
 
 Se espera que el proyecto les tome alrededor de 15-20 hrs, las cuales podrán reportar en sus horas. Si el trabajo refleja más de 15 horas se les podrá otorgar un bonus a criterio de Joyce.	
 
