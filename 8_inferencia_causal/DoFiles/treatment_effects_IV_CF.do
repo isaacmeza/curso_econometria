@@ -2,55 +2,7 @@
 
 ********************************************************************************
 
-use "$directorio/DB/scaleup_operation.dta", clear
-rename ao anio
-rename expediente exp
-merge m:1 junta exp anio using "$directorio/DB/scaleup_casefiles_wod.dta" , nogen  keep(1 3)
-
-*Notified casefiles
-keep if notificado==1
-
-*Homologation
-gen treatment=.
-replace treatment=2 if dia_tratamiento==1
-replace treatment=1 if dia_tratamiento==0
-rename convenio seconcilio
-rename convenio_seg_2m convenio_2m 
-rename convenio_seg_5m convenio_5m
-gen fecha=date(fecha_lista,"YMD")
-format fecha %td
-
-
-*Time hearing (Instrument)
-gen time_hearing=substr(horario_aud,strpos(horario_aud," "),length(horario_aud))
-egen time_hr=group(time_hearing)
-
-keep seconcilio convenio_2m convenio_5m fecha junta fecha treatment p_actor abogado_pub ///
-	time_hearing time_hr /* addresses_* distance  duration */
-gen phase=2
-tempfile temp_p2
-save `temp_p2'
-
-use "$directorio/DB/pilot_operation.dta" , clear	
-replace junta=7 if missing(junta)
-
-*Presence employee
-replace p_actor=(p_actor==1)
-*Not in experiment
-drop if tratamientoquelestoco==0
-rename tratamientoquelestoco treatment
-
-
-*Time hearing (Instrument)
-gen time_hearing=substr(horarioaudiencia,strpos(horarioaudiencia," "),length(horarioaudiencia))
-egen time_hr=group(time_hearing)
-
-keep seconcilio convenio_2m convenio_5m fecha junta fecha treatment p_actor abogado_pub ///
-	time_hearing time_hr /*addresses_*  distance duration */
-append using `temp_p2'
-replace phase=1 if missing(phase)
-
-
+use "$directorio\DB\sett_p1_p2.dta", clear
 
 
 ********************************************************************************
@@ -60,11 +12,6 @@ replace phase=1 if missing(phase)
 *
 *Instrument
 gen time_instrument=inlist(time_hr,1,2,7,8) if !missing(time_hr) 
-gen time_actor=time_instrument*p_actor
-
-gen treat_inst=treatment*time_instrument
-gen treat_p_actor=treatment*p_actor
-
 
 *********************************************
 
