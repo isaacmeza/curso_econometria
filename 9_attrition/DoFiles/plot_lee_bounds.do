@@ -7,7 +7,6 @@ merge 1:1 id_actor using "$directorio\DB\treatment_data.dta", keep(2 3)
 qui su date
 keep if inrange(date,`r(min)',date(c(current_date) ,"DMY")-70)
 			
-qui gen telefono_int=telefono_cel*telefono_fijo
 matrix results = J(12, 11, .)
 
 ********************************************************************************
